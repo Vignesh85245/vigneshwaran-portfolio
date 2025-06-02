@@ -39,7 +39,8 @@ import {
 import Aracreate from "../assets/company/Aracreate.png";
 import java from "../assets/tech/java.png";
 import project4 from "../assets/project4.png";
-
+import project5 from "../assets/project5.png";
+import project6 from "../assets/project6.png";
 
 export const navLinks = [
 
@@ -299,6 +300,44 @@ const projects = [
     ],
     image: project4,
     source_code_link: "https://github.com/Vignesh85245/ACT-magic-clay.git",
+  },
+  {
+    name: "Agricultural Robot",
+    description:
+      "This project focuses on developing an advanced agricultural robot to enhance farming efficiency through real-time monitoring and automation!",
+    tags: [
+      {
+        name: "Blynk IoT",
+        color: "white-text-gradient",
+      },
+      {
+        name: "Embedded C",
+        color: "green-text-gradient",
+      },
+    ],
+    image: project5,
+    source_code_link: "https://github.com/Vignesh85245/Agricultural_robot.git",
+  },
+  {
+    name: "Frontend Projects",
+    description:
+      "This repository showcases a collection of frontend projects that demonstrate various web development skills and technologies, including HTML, CSS, and JavaScript!",
+    tags: [
+      {
+        name: "HTML",
+        color: "white-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: project6,
+    source_code_link: "https://github.com/Vignesh85245/frontend-projects.git",
   },
 ];
 
