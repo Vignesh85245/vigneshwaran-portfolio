@@ -36,7 +36,9 @@ import {
 
 
 // Import Tekisky separately
-import tekisky from "../assets/company/tekisky.png";
+import Aracreate from "../assets/company/Aracreate.png";
+import java from "../assets/tech/java.png";
+import project4 from "../assets/project4.png";
 
 
 export const navLinks = [
@@ -70,13 +72,18 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Ui UX Designer",
-    icon: creator,
-  },
+  // {
+  //   title: "Ui UX Designer",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
+  
+  {
+    name: "Java",
+    icon: java,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -93,36 +100,36 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
+  // {
+  //   name: "gsap",
+  //   icon: gsap,
+  // },
+  // {
+  //   name: "framer",
+  //   icon: framer,
+  // },
 
  
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
+  // {
+  //   name: "Material Ui",
+  //   icon: mui,
+  // },
   {
     name: "Node JS",
     icon: nodejs,
@@ -131,10 +138,10 @@ const technologies = [
     name: "Express Js",
     icon: express,
   },
-  {
-    name: "AWS",
-    icon: aws,
-  },
+  // {
+  //   name: "AWS",
+  //   icon: aws,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -154,13 +161,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
+    title: "Full-Stack Developer Intern",
+    company_name: "Aracreate India Pvt.Ltd",
+    icon: Aracreate,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "Jan 2025 - Mar 2025",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
+      "Developedweb applications using MERN technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -196,57 +203,82 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Tekisky Mart",
-    description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+  // {
+  //   name: "Tekisky Mart",
+  //   description:
+  //     "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
  
-    ],
-    image: project2,
-    source_code_link: "https://github.com/",
-  },
+  //   ],
+  //   image: project2,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "GearXpert",
+  //   description:
+  //     "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "emailJs",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Gsap",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: gearXpert,
+  //   source_code_link: "https://github.com/",
+  // },
+  // {
+  //   name: "GoGroove-Ecommerce",
+  //   description:
+  //     "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "express",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: project3,
+  //   source_code_link: "https://github.com/",
+  // },
   {
-    name: "GearXpert",
+    name: "Magic Clay-Ecommerce",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "emailJs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Gsap",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "GoGroove-Ecommerce",
-    description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "Magic Clay is an e-commerce platform specializing in a wide range of handcrafted ceramic products. It offers unique, artistic pottery and clay items for home decor, kitchenware, and gifting!",
     tags: [
       {
         name: "react",
@@ -265,8 +297,8 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: project4,
+    source_code_link: "https://github.com/Vignesh85245/ACT-magic-clay.git",
   },
 ];
 
