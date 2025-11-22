@@ -42,6 +42,14 @@ import Infotact from "../assets/company/Infotact.png";
 import THM from "../assets/company/THM.png";
 import HTB from "../assets/company/HTB.png";
 import java from "../assets/tech/java.png";
+import wireshark from "../assets/tech/wireshark.png";
+import burp from "../assets/tech/burp.png";
+import nmap from "../assets/tech/nmap.png";
+import python from "../assets/tech/python.png";
+import linux from "../assets/tech/linux.png";
+import kali from "../assets/tech/kali.png";
+
+// Import project images separately
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
@@ -161,7 +169,35 @@ const technologies = [
     icon: git,
   },
  
+  {
+    name: "wireshark",
+    icon: wireshark,
+  },
 
+  {
+    name: "burp",
+    icon: burp,
+  },
+
+  {
+    name: "nmap",
+    icon: nmap,
+  },
+
+  {
+    name: "python",
+    icon: python,
+  },
+
+  {
+    name: "linux",
+    icon: linux,
+  },
+
+  {
+    name: "kali",
+    icon: kali,
+  },
 ];
 
 const experiences = [
