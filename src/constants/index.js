@@ -54,6 +54,8 @@ import kali from "../assets/tech/kali.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
+import project8 from "../assets/project8.png";
 
 export const navLinks = [
 
@@ -374,6 +376,41 @@ const projects = [
   //   image: project3,
   //   source_code_link: "https://github.com/",
   // },
+    {
+    name: "Phising Link Scanner",
+    description:
+      "This Python tool analyzes URLs to detect phishing by checking malicious domains, suspicious keywords, unsafe protocols, and abnormal URL structures. It classifies each input link as either malicious or safe to support quick security validation.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: project8,
+    source_code_link: "https://github.com/Vignesh85245/Phising-Scanner.git",
+  },
+   {
+    name: "NIDS using Snort",
+    description:
+      "A practical defensive cybersecurity project focused on creating and testing custom NIDS rules to detect reconnaissance, intrusion attempts, and suspicious traffic. It strengthened skills in packet analysis, alert tuning, threat identification, and incident detection within a controlled environment, improving accuracy and reducing false positives for real world SOC operations.",
+    tags: [
+      {
+        name: "snort",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "kali",
+        color: "white-text-gradient",
+      },
+      {
+        name: "ubuntu",
+        color: "green-text-gradient",
+      },
+    ],
+    image: project7,
+    source_code_link: "https://github.com/Vignesh85245/Network-Intrusion-Detection-System-NIDS-Rule-Creation-and-Testing-Lab.git",
+  },
+
   {
     name: "Magic Clay-Ecommerce",
     description:
