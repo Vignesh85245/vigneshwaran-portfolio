@@ -37,6 +37,10 @@ import {
 
 // Import Tekisky separately
 import Aracreate from "../assets/company/Aracreate.png";
+import HackersSchool from "../assets/company/Hackers.png";
+import Infotact from "../assets/company/Infotact.png";
+import THM from "../assets/company/THM.png";
+import HTB from "../assets/company/HTB.png";
 import java from "../assets/tech/java.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
@@ -172,6 +176,58 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+  title: "Junior SOC Analyst Intern",
+    company_name: "Hackers School",
+    icon: HackersSchool,
+    iconBg: "#383E56",
+    date: "Jul 2025 - Aug 2025",
+    points: [
+      "Performed log analysis & triage using Splunk and QRadar for real-time monitoring.",
+      "Investigated phishing campaigns, brute-force attempts, and malicious IP activities.",
+      "Assisted in playbook creation and SIEM rule tuning to minimize false positives.",
+      "Collaborated with the SOC team to improve incident detection and escalation workflows.",
+      "Documented incident response procedures and contributed to threat intelligence sharing."
+    ],
+  },
+  {
+  title: "L1 Security Admin Associate Intern",
+    company_name: "Infotact Solutions",
+    icon: Infotact,
+    iconBg: "#383E56",
+    date: "Sep 2025 - Dec 2025",
+    points: [
+      "Conducted vulnerability scans and performed secure code reviews to identify weaknesses.",
+      "Monitored logs and alerts from multiple sources ensuring compliance & threat prevention.",
+      "Prepared security documentation including policies, IR plans, and system hardening guides.",
+      "Supported patch management and coordinated with IT teams for timely remediation.",
+      "Assisted in incident handling, escalating high-severity threats to senior analysts."
+    ],
+  },
+  {
+  title: "CTF Player",
+    company_name: "TryHackMe",
+    icon: THM,
+    iconBg: "#383E56",
+    date: "Sep 2025 - Present",
+    points: [
+      "Actively participate in Capture The Flag (CTF) challenges on Hack The Box and TryHackMe.", 
+      "solving a wide range of cybersecurity problemsThese include web application security.", 
+      "reverse engineering, cryptography, networking exploits, privilege escalation, forensics, and system exploitation."
+    ],
+  },
+  {
+  title: "CTF Player",
+    company_name: "Hack The Box",
+    icon: HTB,
+    iconBg: "#383E56",
+    date: "Sep 2025 - Present",
+    points: [
+      "Actively participate in Capture The Flag (CTF) challenges on Hack The Box and TryHackMe.", 
+      "solving a wide range of cybersecurity problemsThese include web application security.", 
+      "reverse engineering, cryptography, networking exploits, privilege escalation, forensics, and system exploitation."
     ],
   },
 ];
