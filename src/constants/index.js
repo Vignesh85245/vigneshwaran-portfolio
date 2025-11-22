@@ -4,6 +4,7 @@ import {
   backend,
   creator,
   mobile,
+  soc,
   web,
   github,
   menu,
@@ -73,6 +74,11 @@ export const navLinks = [
 ];
 
 const services = [
+  {
+    title: "SOC Analyst",
+    icon: soc,
+  },
+
   {
     title: "Full-Stack Developer",
     icon: web,
