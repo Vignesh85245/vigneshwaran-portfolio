@@ -82,15 +82,15 @@ const services = [
   },
 
   {
-    title: "Full-Stack Developer",
+    title: "Incident Responder",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Threat Hunter",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Security Researcher",
     icon: backend,
   },
   // {
@@ -105,22 +105,22 @@ const technologies = [
     name: "Java",
     icon: java,
   },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "React JS",
+  //   icon: reactjs,
+  // },
   // {
   //   name: "gsap",
   //   icon: gsap,
@@ -143,30 +143,30 @@ const technologies = [
   //   name: "Redux Toolkit",
   //   icon: redux,
   // },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   // {
   //   name: "Material Ui",
   //   icon: mui,
   // },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express Js",
-    icon: express,
-  },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "Express Js",
+  //   icon: express,
+  // },
   // {
   //   name: "AWS",
   //   icon: aws,
   // },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
     name: "MySql",
     icon: mysql,
@@ -277,30 +277,30 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
-    image: secondTestimonial,
-  },
-  {
-    testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
-  },
+  // {
+  //   testimonial:
+  //     "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
+  //   name: "MD Mustaqeem",
+  //   designation: "Ecommerce",
+  //   company: "QuickMart",
+  //   image: firstTestimonial,
+  // },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
+  //   name: "Abdul Raheman",
+  //   designation: "Ecommerce Business",
+  //   company: "justbuyz",
+  //   image: secondTestimonial,
+  // },
+  // {
+  //   testimonial:
+  //     "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "James Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: thirdTestimonial,
+  // },
 ];
 
 const projects = [
@@ -411,69 +411,69 @@ const projects = [
     source_code_link: "https://github.com/Vignesh85245/Network-Intrusion-Detection-System-NIDS-Rule-Creation-and-Testing-Lab.git",
   },
 
-  {
-    name: "Magic Clay-Ecommerce",
-    description:
-      "Magic Clay is an e-commerce platform specializing in a wide range of handcrafted ceramic products. It offers unique, artistic pottery and clay items for home decor, kitchenware, and gifting!",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "express",
-        color: "white-text-gradient",
-      },
-      {
-        name: "node",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-    ],
-    image: project4,
-    source_code_link: "https://github.com/Vignesh85245/ACT-magic-clay.git",
-  },
-  {
-    name: "Agricultural Robot",
-    description:
-      "This project focuses on developing an advanced agricultural robot to enhance farming efficiency through real-time monitoring and automation!",
-    tags: [
-      {
-        name: "Blynk IoT",
-        color: "white-text-gradient",
-      },
-      {
-        name: "Embedded C",
-        color: "green-text-gradient",
-      },
-    ],
-    image: project5,
-    source_code_link: "https://github.com/Vignesh85245/Agricultural_robot.git",
-  },
-  {
-    name: "Frontend Projects",
-    description:
-      "This repository showcases a collection of frontend projects that demonstrate various web development skills and technologies, including HTML, CSS, and JavaScript!",
-    tags: [
-      {
-        name: "HTML",
-        color: "white-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JavaScript",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: project6,
-    source_code_link: "https://github.com/Vignesh85245/frontend-projects.git",
-  },
+  // {
+  //   name: "Magic Clay-Ecommerce",
+  //   description:
+  //     "Magic Clay is an e-commerce platform specializing in a wide range of handcrafted ceramic products. It offers unique, artistic pottery and clay items for home decor, kitchenware, and gifting!",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "express",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "node",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: project4,
+  //   source_code_link: "https://github.com/Vignesh85245/ACT-magic-clay.git",
+  // },
+  // {
+  //   name: "Agricultural Robot",
+  //   description:
+  //     "This project focuses on developing an advanced agricultural robot to enhance farming efficiency through real-time monitoring and automation!",
+  //   tags: [
+  //     {
+  //       name: "Blynk IoT",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "Embedded C",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: project5,
+  //   source_code_link: "https://github.com/Vignesh85245/Agricultural_robot.git",
+  // },
+  // {
+  //   name: "Frontend Projects",
+  //   description:
+  //     "This repository showcases a collection of frontend projects that demonstrate various web development skills and technologies, including HTML, CSS, and JavaScript!",
+  //   tags: [
+  //     {
+  //       name: "HTML",
+  //       color: "white-text-gradient",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "JavaScript",
+  //       color: "yellow-text-gradient",
+  //     },
+  //   ],
+  //   image: project6,
+  //   source_code_link: "https://github.com/Vignesh85245/frontend-projects.git",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

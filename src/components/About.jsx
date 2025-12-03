@@ -72,7 +72,7 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I am an aspiring SOC Analyst with hands-on experience in SIEM tools such as Splunk and QRadar, log monitoring, and incident response. I actively work on identifying threats, analyzing security events, and improving detection workflows to ensure a strong security posture. My background in scripting, network security, and system administration enables me to troubleshoot incidents effectively and collaborate with security teams in real-time environments. I’m passionate about threat hunting, vulnerability management, and security automation, and continuously enhance my skills to stay ahead of evolving cyber threats. Motivated, detail oriented, and curious by nature I thrive in fast paced SOC environments where every alert is an opportunity to defend and protect.
+        I'm a SOC Analyst with hands-on experience in SIEM operations (Splunk, QRadar), log analysis, incident response, and threat detection. I work on identifying malicious activities, analyzing security alerts, and improving detection rules using MITRE ATT&CK. My background in networking, Linux, scripting, and system security helps me investigate incidents, execute playbooks, and support threat hunting activities in real-time environments. I’m passionate about vulnerability analysis, adversary behavior, malware traffic analysis, and security automation. I thrive in fast-paced SOC environments where every alert is an opportunity to detect, defend, and respond.
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
